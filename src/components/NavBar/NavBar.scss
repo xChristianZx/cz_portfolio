@@ -1,0 +1,28 @@
+.navbar-wrapper {
+  display: flex;
+  width: 100%;
+  background: grey;
+  justify-content: center;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  height: 2rem;
+  width: 85%;
+  padding: 1rem 0;
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+  & ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    & li {
+      padding: 1rem;
+      list-style: none;
+    }
+  }
+}
