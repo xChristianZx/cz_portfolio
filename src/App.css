@@ -1,0 +1,7 @@
+.content-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh; }

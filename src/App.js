@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Landing from "./components/Landing/Landing";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 class App extends Component {
   render() {
@@ -12,12 +13,13 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <div>
-            <NavBar />            
-            <div>
+            <NavBar />
+            <div className="content-container">
               <Route exact path="/" component={Landing} />
               <Route exact path="/home" component={Home} />
               <Route path="/about" component={About} />
-            </div>            
+              <Route path="/portfolio" component={Portfolio} />
+            </div>
           </div>
         </BrowserRouter>
       </div>
