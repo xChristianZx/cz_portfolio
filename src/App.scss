@@ -1,8 +1,9 @@
-.content-container {  
+.content-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   margin: auto;
-  height: 100vh;
+  height: 88vh;
+  flex: 1 0 auto;
 }

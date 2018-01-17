@@ -6,8 +6,9 @@ import Landing from "./components/Landing/Landing";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
 
-const Photography = () => <h2>Link to Photography Portfolio</h2>
+const Photography = () => <h2>Link to Photography Portfolio</h2>;
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/photography" component={Photography} />
             </div>
+            <Footer />
           </div>
         </BrowserRouter>
       </div>
