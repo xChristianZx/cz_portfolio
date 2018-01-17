@@ -9,3 +9,8 @@
   flex-flow: row nowrap;
   justify-content: space-around;
   width: 100vw; }
+  .landing-links a {
+    text-decoration: none;
+    color: inherit; }
+    .landing-links a :hover {
+      text-decoration: underline; }
