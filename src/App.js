@@ -4,7 +4,6 @@ import { BrowserRouter, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Landing from "./components/Landing/Landing";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
 
@@ -19,8 +18,7 @@ class App extends Component {
             <NavBar />
             <div className="content-container">
               <Route exact path="/" component={Landing} />
-              <Route exact path="/home" component={Home} />
-              <Route path="/about" component={About} />
+              <Route exact path="/home" component={Home} />              
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/photography" component={Photography} />
             </div>
