@@ -8,10 +8,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 2rem;
   height: 2rem;
   width: 85%;
-  padding: 1rem 0; }
+  padding: 0;
+  margin: 1rem 0; }
   .navbar-container a {
     color: white;
     text-decoration: none; }
@@ -20,5 +21,6 @@
     flex-flow: row nowrap;
     margin: 0; }
     .navbar-container ul li {
-      padding: 1rem;
+      padding: 0 1.5em;
+      margin: 0;
       list-style: none; }

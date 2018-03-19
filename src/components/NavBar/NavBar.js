@@ -13,7 +13,7 @@ class NavBar extends Component {
           </span>
           <ul>
             <li>
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/home">About</NavLink>
             </li>
             <li>
               <NavLink to="/portfolio">Portfolio</NavLink>
