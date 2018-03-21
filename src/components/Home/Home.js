@@ -1,25 +1,30 @@
 import React from "react";
 import "./Home.css";
 import About from "../About/About";
-import pic from "../../Assets/DSCF0210 copy-3264 x 4896-2.jpg";
-import pic2 from "../../Assets/profile-pic4x3.jpg";
-import pic3 from "../../Assets/profile-pic-400x400.jpg";
-import pic4 from "../../Assets/profile-pic4x4.jpg";
+// import pic5 from "../../Assets/profile-pic400x400-2.jpg";
+
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="profile-container">
+      <div className="header-container">
         <div className="profile-img-wrapper">
-          {/* <FaProfile /> */}
-          <img className="headshot" src={pic4} alt="Christian Zenaty" />
+          <img
+            className="headshot"
+            src={
+              "https://res.cloudinary.com/zenpicscloud/image/upload/v1521654129/profile-pic400x400-2.jpg"
+            }
+            alt="Christian Zenaty"
+          />
         </div>
         <div className="greeting-wrapper">
           <h1>Hey, I'm Christian</h1>
-          <p>A front-end Web Developer based in the San Francisco Bay Area</p>
+          <h4>A front-end Web Developer based in the San Francisco Bay Area</h4>
         </div>
       </div>
       <hr />
-      <About />
+      <div>
+        <About />
+      </div>
     </div>
   );
 };

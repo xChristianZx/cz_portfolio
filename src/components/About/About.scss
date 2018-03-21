@@ -1,4 +1,45 @@
+.about-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 2rem;
+  margin: 0 auto;
+  min-height: 30vh;
+  width: 60vw;
+  // border: 1px solid black;
+}
+
 .about-container {
-  border: 1px solid black;
-  padding: 1rem;
+  width: 70%;
+  & .about-text {
+    margin: 0.5rem auto;
+    padding: 1rem 0;
+  }
+}
+
+.about-header {
+  margin: 1rem auto;
+}
+
+.contact-container {
+  width: 20%;
+  & .links-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 2em;
+    & .link-item {
+      padding: 1rem;
+      text-decoration: none;
+      color: inherit;
+      &:hover {
+        color: gray;
+      }
+      & .link-name {
+        margin-left: 1rem;
+      }
+    }
+  }
 }

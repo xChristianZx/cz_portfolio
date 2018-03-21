@@ -9,17 +9,17 @@ class NavBar extends Component {
       <div className="navbar-wrapper">
         <div className="navbar-container">
           <span>
-            <NavLink to="/">CZ</NavLink>
+            <NavLink to="/">Christian Zenaty</NavLink>
           </span>
           <ul>
             <li>
-              <NavLink to="/home">About</NavLink>
+              <NavLink to="/">About</NavLink>
             </li>
             <li>
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
-              <NavLink to="/photography">
+              <NavLink to="/photography" title="Check out my photography work">
                 <FaCamera />
               </NavLink>
             </li>

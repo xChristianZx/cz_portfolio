@@ -2,25 +2,31 @@
   display: flex;
   width: 100vw;
   justify-content: center;
-  border-top: 1px solid lightgrey; }
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; }
 
 .footer-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-content: center;
-  width: 90vw; }
+  width: 90vw;
+  color: rgba(0, 0, 0, 0.5); }
+  .footer-container h3 {
+    font-size: 1.5em; }
 
 .icons-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.6rem; }
+  font-size: 2em; }
   .icons-container a {
     text-decoration: none;
-    color: inherit; }
+    color: inherit;
+    margin: 1rem auto; }
     .icons-container a :hover {
-      font-size: 2rem; }
+      color: black; }
   .icons-container svg {
-    padding: 0 1rem; }
+    padding: 0 1em; }
