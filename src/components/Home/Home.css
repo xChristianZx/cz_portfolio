@@ -1,12 +1,34 @@
 .home-container {
-  width: 50vw; }
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 90%;
+  padding: 0 1rem;
+  margin: auto; }
+
+.profile-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 60vw; }
 
 .profile-img-wrapper {
   text-align: center;
-  font-size: 5rem; }
+  font-size: 5rem;
+  margin: auto; }
+  .profile-img-wrapper img {
+    border-radius: 50%;
+    width: 15vw;
+    height: auto; }
+
+.greeting-wrapper {
+  margin: auto; }
 
 h1 {
-  font-size: 2.5rem; }
+  font-size: 3em; }
 
 p {
-  font-size: 1.6rem; }
+  font-size: 2em; }
