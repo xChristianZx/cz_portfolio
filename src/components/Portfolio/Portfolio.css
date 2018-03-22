@@ -19,6 +19,8 @@
   width: 60vw;
   margin: 0 auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .header-container h4 {
+    margin: 1em; }
 
 .collection-container ul {
   display: flex;
@@ -30,21 +32,3 @@
   margin: 0 auto;
   padding: 1rem;
   list-style: none; }
-
-.collection-item {
-  width: 300px;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.2);
-  font-size: 2em;
-  margin: 1em auto;
-  padding: 0;
-  text-align: center;
-  box-sizing: border-box; }
-  .collection-item .item-image {
-    object-fit: fill;
-    width: 100%;
-    height: auto;
-    overflow: hidden; }
-    .collection-item .item-image:hover {
-      opacity: 0.65;
-      cursor: pointer; }

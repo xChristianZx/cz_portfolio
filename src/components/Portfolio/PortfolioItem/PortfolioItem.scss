@@ -1,0 +1,43 @@
+.collection-item {
+  width: 350px;
+  height: auto;
+  margin: 1em auto;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 2em;
+  text-align: center;
+  box-sizing: border-box;
+  // border: 3px solid blue;
+  &:hover {
+    .item-name {
+      opacity: 1;
+    }
+  }
+
+  & a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    text-decoration: none;
+    & .item-name {
+      position: absolute;
+      opacity: 0;
+      transition: opacity 0.25s ease-in 0.1s;
+      //   color: white;
+    }
+  }
+
+  & .item-image {
+    object-fit: fill;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    &:hover {
+      transition: opacity 0.25s ease-in;
+      opacity: 0.2;
+      cursor: pointer;
+    }
+  }
+}

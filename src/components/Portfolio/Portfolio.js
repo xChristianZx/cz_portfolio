@@ -1,8 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
-import PortfolioItem from "./PortfolioItem";
+import PortfolioItem from "./PortfolioItem/PortfolioItem";
 import projects from "../../Assets/projects";
-
 
 const Portfolio = () => {
   const portfolioItemList = projects.map(item => {
