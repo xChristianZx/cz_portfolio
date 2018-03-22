@@ -3,21 +3,21 @@ const projects = [
     name: "crypTick",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752295/project_thumbnails/crypTick.png",
-    tags: "reactjs, websockets, expressjs",
+    tags: "reactjs, websockets/ws, expressjs",
     link: "https://cryptick.herokuapp.com/"
   },
   {
     name: "Chart It",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752294/project_thumbnails/ChartTheMarket.png",
-    tags: "reactjs, websockets, expressjs",
+    tags: "reactjs, websockets/ws, expressjs, mongoDB",
     link: "https://chart-it-z.herokuapp.com/"
   },
   {
     name: "VoterZ",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752279/project_thumbnails/voting_app.png",
-    tags: "reactjs, websockets, expressjs",
+    tags: "expressjs, mongoDB, ejs",
     link: "https://voterz.herokuapp.com/"
   },
   {
