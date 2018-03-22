@@ -1,9 +1,20 @@
 import React from "react";
 import "./Portfolio.css";
+import PortfolioItem from "./PortfolioItem";
+import projects from "../../Assets/projects";
 
-const arr = ["0", "1", "2", "3", "4", "5"];
 
 const Portfolio = () => {
+  const portfolioItemList = projects.map(item => {
+    return (
+      <PortfolioItem
+        className="collection-item"
+        key={item.name}
+        project={item}
+      />
+    );
+  });
+
   return (
     <div className="portfolio-wrapper">
       <div className="header-container">
@@ -11,9 +22,7 @@ const Portfolio = () => {
         <h4>A collection of some of my work</h4>
       </div>
       <div className="collection-container">
-        {arr.map(item => {
-          return <div className="collection-item">{item}</div>;
-        })}
+        <ul>{portfolioItemList}</ul>
       </div>
     </div>
   );
