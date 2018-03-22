@@ -5,9 +5,9 @@ import About from "../About/About";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-wrapper">
       <div className="header-container">
-        <div className="profile-img-wrapper">
+        <div className="profile-img-container">
           <img
             className="headshot"
             src={
@@ -16,7 +16,7 @@ const Home = () => {
             alt="Christian Zenaty"
           />
         </div>
-        <div className="greeting-wrapper">
+        <div className="greeting-container">
           <h1>Hey, I'm Christian</h1>
           <h4>A front-end Web Developer based in the San Francisco Bay Area</h4>
         </div>

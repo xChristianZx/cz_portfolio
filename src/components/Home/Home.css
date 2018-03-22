@@ -1,4 +1,4 @@
-.home-container {
+.home-wrapper {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -20,14 +20,14 @@
   margin: 0 auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-.profile-img-wrapper {
+.profile-img-container {
   text-align: center;
   font-size: 5rem;
   margin: 0 auto; }
-  .profile-img-wrapper img {
+  .profile-img-container img {
     border-radius: 50%;
     width: 15vw;
     height: auto; }
 
-.greeting-wrapper {
+.greeting-container {
   margin: 0 auto; }
