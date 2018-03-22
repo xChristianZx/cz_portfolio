@@ -23,6 +23,7 @@ class NavBar extends Component {
                 href="https://cz-photos.surge.sh/"
                 target="_blank"
                 title="Check out my photography work"
+                rel="noopener noreferrer"
               >
                 <FaCamera />
               </a>
