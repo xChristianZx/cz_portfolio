@@ -19,9 +19,13 @@ class NavBar extends Component {
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
-              <NavLink to="/photography" title="Check out my photography work">
+              <a
+                href="https://cz-photos.surge.sh/"
+                target="_blank"
+                title="Check out my photography work"
+              >
                 <FaCamera />
-              </NavLink>
+              </a>
             </li>
           </ul>
         </div>
