@@ -3,7 +3,7 @@
   height: auto;
   margin: 1em auto;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
   font-size: 2em;
   text-align: center;
   box-sizing: border-box;
@@ -15,11 +15,12 @@
   }
 
   & a {
+    background-color: black;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: flex-start;
-    color: black;
+    align-items: center;
+    color: white;
     text-decoration: none;
     & .item-name {
       position: absolute;
@@ -36,7 +37,7 @@
     overflow: hidden;
     &:hover {
       transition: opacity 0.25s ease-in;
-      opacity: 0.2;
+      opacity: 0.3;
       cursor: pointer;
     }
   }
