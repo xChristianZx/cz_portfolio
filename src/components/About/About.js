@@ -8,19 +8,24 @@ const About = () => {
     <div className="about-wrapper">
       <div className="about-container">
         <h2 className="about-header">About Me</h2>
-        <h4 className="about-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut libero
-          sem, vulputate eget vehicula eu, cursus et ligula. Suspendisse
-          bibendum pretium magna, ut vulputate nibh vehicula quis. Etiam
-          aliquet, mi vel vulputate accumsan, dui magna iaculis justo, eget
-          venenatis tellus mi varius mauris. Nam sodales quam vitae ultricies
-          congue. Donec erat risus, blandit vel purus vitae, ultricies lacinia
-          est. Donec molestie dolor urna, nec finibus nulla venenatis vitae.
-          Aenean tempor, lectus nec luctus rutrum, ex lectus fringilla risus,
-          nec vulputate orci magna sed massa. Quisque at turpis leo. Nam neque
-          arcu, condimentum ac fermentum in, faucibus ac lectus. In dapibus
-          risus risus, non ornare purus commodo vel.
-        </h4>
+        <div className="about-text">
+          <p>
+            I’m a former wine guy turned web developer. I left the wine business
+            to take some time to travel and found myself in web development. I
+            love programming and the endless possibilities (and challenges!)
+            that come with it.
+          </p>
+          <p>
+            I currently work mostly with the MERN stack (MongoDB, Express,
+            React, Node), but am always looking forward to learning new
+            languages and technologies.
+          </p>
+          <p>
+            I hope to utilize my diverse skill set to build applications that
+            find a balance between people and product.
+          </p>
+          <p>Thanks for stopping by and feel free to reach out! Cheers!</p>
+        </div>
       </div>
       <div className="contact-container">
         <h2 className="about-header">Contact</h2>

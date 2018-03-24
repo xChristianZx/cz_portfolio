@@ -12,7 +12,14 @@
   width: 70%; }
   .about-container .about-text {
     margin: 0.5rem auto;
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    white-space: pre-line; }
+    .about-container .about-text p {
+      font-size: 1.7em;
+      font-family: "Lato", sans-serif;
+      font-weight: 300; }
+    .about-container .about-text :first-child {
+      margin-top: 0; }
 
 .about-header {
   margin: 1rem auto; }
