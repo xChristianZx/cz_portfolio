@@ -5,22 +5,25 @@
   align-items: center;
   width: 100vw;
   height: 100%;
-  padding: 5rem;
+  padding: 3em;
   margin: auto;
+  border: 3px solid green;
   flex: 1;
   box-sizing: border-box; }
 
 .header-container {
+  border: 2px solid red;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 1em;
-  width: 60vw;
+  width: 65vw;
   margin: 0 auto;
+  padding: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .profile-img-container {
+  border: 2px solid green;
   text-align: center;
   font-size: 5rem;
   margin: 0 auto; }
@@ -30,4 +33,63 @@
     height: auto; }
 
 .greeting-container {
+  border: 2px solid blue;
   margin: 0 auto; }
+  .greeting-container h1 {
+    margin: 1em auto;
+    padding: 0 1rem; }
+  .greeting-container h4 {
+    margin: 1em auto;
+    padding: 0 1rem; }
+
+@media all and (max-width: 850px) {
+  .header-container {
+    width: 85vw; } }
+
+@media all and (max-width: 660px) {
+  .header-container {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+  .profile-img-container {
+    text-align: center;
+    font-size: 5rem;
+    margin: 0 auto; }
+    .profile-img-container img {
+      border-radius: 50%;
+      width: 25vw;
+      height: auto; }
+  .greeting-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+    .greeting-container h1 {
+      margin: 1rem auto;
+      padding: 0 1rem; }
+    .greeting-container h4 {
+      margin: 1rem auto;
+      padding: 0 1rem; } }
+
+@media all and (max-width: 550px) {
+  .home-wrapper {
+    padding: 1rem 0; }
+  .header-container {
+    width: 100vw;
+    padding: 1rem 0; }
+  .profile-img-container {
+    text-align: center;
+    font-size: 5rem; }
+    .profile-img-container img {
+      border-radius: 50%;
+      width: 40vw;
+      height: auto; }
+  .greeting-container {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    .greeting-container h1 {
+      margin: 1rem auto;
+      padding: 0 1rem; }
+    .greeting-container h4 {
+      margin: 1rem auto;
+      padding: 0 1rem; } }
