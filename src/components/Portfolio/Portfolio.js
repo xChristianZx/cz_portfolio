@@ -16,13 +16,11 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-wrapper">
-      <div className="header-container">
+      <div className="portfolio-container">
         <h1>Portfolio</h1>
         <h4>A collection of some of my work</h4>
       </div>
-      <div className="collection-container">
-        <ul>{portfolioItemList}</ul>
-      </div>
+      <ul className="collection-container">{portfolioItemList}</ul>
     </div>
   );
 };

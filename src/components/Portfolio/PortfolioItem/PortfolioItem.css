@@ -1,5 +1,5 @@
 .collection-item {
-  width: 350px;
+  width: 45%;
   height: auto;
   margin: 1em auto;
   padding: 0;
@@ -30,3 +30,16 @@
       transition: opacity 0.25s ease-in;
       opacity: 0.3;
       cursor: pointer; }
+
+@media all and (max-width: 850px) {
+  .collection-item {
+    margin: 1rem;
+    padding: 0;
+    width: 80%;
+    height: auto;
+    flex-grow: 1;
+    flex-basis: auto; } }
+
+@media all and (max-width: 550px) {
+  .collection-item {
+    width: 100%; } }
