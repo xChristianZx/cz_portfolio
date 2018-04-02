@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./NavBar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import FaCamera from "react-icons/lib/fa/camera-retro";
 
 class NavBar extends Component {
@@ -9,11 +9,13 @@ class NavBar extends Component {
       <div className="navbar-wrapper">
         <div className="navbar-container">
           <span>
-            <NavLink to="/">Christian Zenaty</NavLink>
+            <Link to="/">Christian Zenaty</Link>
           </span>
           <ul>
             <li>
-              <NavLink to="/">About</NavLink>
+              <NavLink exact to="/">
+                About
+              </NavLink>
             </li>
             <li>
               <NavLink to="/portfolio">Portfolio</NavLink>
