@@ -6,12 +6,10 @@
   padding: 2rem;
   margin: 0 auto;
   min-height: 30vh;
-  width: 65vw;
-  border: 1px solid red; }
+  width: 65vw; }
 
 .about-container {
-  width: 70%;
-  border: 1px solid green; }
+  width: 70%; }
   .about-container .about-text {
     margin: 0.5rem auto;
     padding: 0 1rem;
@@ -59,9 +57,16 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .contact-container {
     width: 100%; }
+    .contact-container .about-header {
+      padding-top: 1rem; }
     .contact-container .links-container {
       flex-flow: row nowrap;
       justify-content: space-around;
       align-items: center; }
   .about-header {
     text-align: center; } }
+
+@media all and (max-width: 550px) {
+  .about-wrapper {
+    width: 100%;
+    padding: 1rem 0; } }

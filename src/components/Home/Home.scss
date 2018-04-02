@@ -7,13 +7,13 @@
   height: 100%;
   padding: 3em;
   margin: auto;
-  border: 3px solid green;
+  // border: 3px solid green;
   flex: 1;
   box-sizing: border-box;
 }
 
 .header-container {
-  border: 2px solid red;
+  // border: 2px solid red;
   // background-color: slateblue;
   display: flex;
   flex-flow: row nowrap;
@@ -26,28 +26,30 @@
 }
 
 .profile-img-container {
-  border: 2px solid green;
+  // border: 2px solid green;
   text-align: center;
   font-size: 5rem;
   margin: 0 auto;
   & img {
     border-radius: 50%;
-    width: 15vw;
+    width: 157px;
     height: auto;
   }
 }
 
 .greeting-container {
-  border: 2px solid blue;
+  // border: 2px solid blue;
   margin: 0 auto;
-  // width: 70%;
+  width: 70%;
   & h1 {
     margin: 1em auto;
     padding: 0 1rem;
+    // font-size: 3em;
   }
   & h4 {
     margin: 1em auto;
     padding: 0 1rem;
+    // font-size: 1.75em;
   }
 }
 
@@ -70,7 +72,7 @@
     margin: 0 auto;
     & img {
       border-radius: 50%;
-      width: 25vw;
+      width: 165px;
       height: auto;
     }
   }
@@ -88,22 +90,8 @@
       padding: 0 1rem;
     }
   }
-  //   .contact-container {
-  //     width: 100%;
-  //     // .about-header {
-  //     //   // margin-top: 1rem;
-  //     // }
-  //     .links-container {
-  //       flex-flow: row nowrap;
-  //       justify-content: space-around;
-  //       align-items: center;
-  //     }
-  //   }
-
-  //   .about-header {
-  //     text-align: center;
-  //   }
 }
+
 @media all and (max-width: 550px) {
   .home-wrapper {
     padding: 1rem 0;
@@ -137,19 +125,12 @@
       padding: 0 1rem;
     }
   }
-  //   .contact-container {
-  //     width: 100%;
-  //     // .about-header {
-  //     //   // margin-top: 1rem;
-  //     // }
-  //     .links-container {
-  //       flex-flow: row nowrap;
-  //       justify-content: space-around;
-  //       align-items: center;
-  //     }
-  //   }
+}
 
-  //   .about-header {
-  //     text-align: center;
-  //   }
+@media all and (min-width: 1440px) {
+  .profile-img-container {
+    & img {
+      max-width: 10vw;
+    }
+  }
 }
