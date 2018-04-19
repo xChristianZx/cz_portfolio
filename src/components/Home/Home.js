@@ -11,7 +11,7 @@ const Home = () => {
           <img
             className="headshot"
             src={
-              "https://res.cloudinary.com/zenpicscloud/image/upload/v1521654129/profile-pic400x400-2.jpg"
+              "https://res.cloudinary.com/zenpicscloud/image/upload/v1521654129/profile_pics/profile-pic400x400-2.jpg"
             }
             alt="Christian Zenaty"
           />
