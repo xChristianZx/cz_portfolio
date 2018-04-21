@@ -7,8 +7,7 @@
   height: 100%;
   padding: 3em;
   margin: auto;
-  flex: 1;
-  box-sizing: border-box; }
+  flex: 1; }
 
 .portfolio-container {
   display: flex;
