@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import About from "../About/About";
-// import pic5 from "../../Assets/profile-pic400x400-2.jpg";
 
 const Home = () => {
   return (
