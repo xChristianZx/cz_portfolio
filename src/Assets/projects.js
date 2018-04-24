@@ -4,49 +4,57 @@ const projects = [
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/q_50/v1524176533/uNight.png",
     tags: "reactjs, redux, react-router, nodejs, express, mongodb",
-    link: "https://unight-tonight.herokuapp.com/"
+    link: "https://unight-tonight.herokuapp.com/",
+    github: "https://github.com/xChristianZx/nightlife_app"
   },
   {
     name: "crypTick",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752295/project_thumbnails/crypTick.png",
     tags: "reactjs, websockets/ws, expressjs",
-    link: "https://cryptick.herokuapp.com/"
+    link: "https://cryptick.herokuapp.com/",
+    github: "https://github.com/xChristianZx/crypTick"
   },
   {
     name: "Chart It",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752294/project_thumbnails/ChartTheMarket.png",
     tags: "reactjs, websockets/ws, expressjs, mongoDB",
-    link: "https://chart-it-z.herokuapp.com/"
+    link: "https://chart-it-z.herokuapp.com/",
+    github: "https://github.com/xChristianZx/stock_charting_app"
   },
   {
     name: "VoterZ",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752279/project_thumbnails/voting_app.png",
     tags: "expressjs, mongoDB, ejs",
-    link: "https://voterz.herokuapp.com/"
+    link: "https://voterz.herokuapp.com/",
+    github: "https://github.com/xChristianZx/voting_app"
   },
   {
     name: "Momentum Clone",
     src:
       "http://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_20,w_1000/v1521754421/MomentumClone.png",
     tags: "reactjs, sass",
-    link: "https://sparkling-substance.surge.sh"
+    link: "https://sparkling-substance.surge.sh",
+    github: "https://github.com/xChristianZx/momentum_clone"
   },
   {
     name: "Calculator",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521755824/project_thumbnails/Calculator.png",
     tags: "jquery, sass, css grid",
-    link: "https://codepen.io/christianZ/full/JJWmox"
+    link: "https://codepen.io/christianZ/full/JJWmox",
+    github:
+      "https://github.com/xChristianZx/FCC2/tree/master/Projects/calculator"
   },
   {
     name: "Simon",
     src:
       "https://res.cloudinary.com/zenpicscloud/image/upload/v1521755825/project_thumbnails/Simon.png",
     tags: "jquery",
-    link: "https://codepen.io/christianZ/pen/BdBvmx"
+    link: "https://codepen.io/christianZ/pen/BdBvmx",
+    github: "https://github.com/xChristianZx/FCC2/tree/master/Projects/simon"
   }
 ];
 
