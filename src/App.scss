@@ -1,3 +1,9 @@
+.router-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .content-container {
   display: flex;
   flex-flow: row nowrap;
