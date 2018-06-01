@@ -38,7 +38,7 @@ const projects = [
   {
     name: "Momentum Clone",
     src:
-      "http://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_20,w_1000/v1521754421/MomentumClone.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_20,w_1000/v1521754421/MomentumClone.png",
     tags: "reactjs, sass",
     link: "https://sparkling-substance.surge.sh",
     github: "https://github.com/xChristianZx/momentum_clone",
