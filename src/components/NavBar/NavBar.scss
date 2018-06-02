@@ -1,4 +1,4 @@
-.navbar-wrapper {  
+.navbar-wrapper {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -28,27 +28,42 @@
       }
     }
 
-    //React-Router Styling
+    /* React-Router Styling - Do Not Remove */
     &.active {
       font-weight: bold;
       padding-bottom: 1.5rem;
       border-bottom: 1px solid black;
     }
   }
-  & ul {
+  & .navbar-links-container {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
     & li {
       padding: 0 1.5em;
       margin: 0;
       list-style: none;
-      &:last-child a {
-        color: gray;
-        &:hover {
-          color: black;
+      &:last-child {
+        padding-right: 0;
+        a {
+          color: gray;
+          padding-right: 0;
+          &:hover {
+            color: black;
+          }
         }
       }
+    }
+  }
+}
+
+@media all and (max-width: 550px) {
+  .navbar-container {
+    margin: 0.3rem auto;
+    & .navbar-links-container li {
+      padding: 0 1em;
     }
   }
 }

@@ -11,7 +11,7 @@ class NavBar extends Component {
           <span>
             <Link to="/">Christian Zenaty</Link>
           </span>
-          <ul>
+          <ul className="navbar-links-container" >
             <li>
               <NavLink exact to="/">
                 About
