@@ -34,6 +34,9 @@
     align-items: flex-start;
     font-size: 2em; }
     .contact-container .links-container .link-item {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
       margin: 1rem 0;
       padding: 0 1rem;
       text-decoration: none;
@@ -41,7 +44,7 @@
       .contact-container .links-container .link-item:hover {
         color: gray; }
       .contact-container .links-container .link-item .link-name {
-        margin-left: 1rem; }
+        margin-left: 1.5rem; }
 
 @media all and (max-width: 850px) {
   .about-wrapper {

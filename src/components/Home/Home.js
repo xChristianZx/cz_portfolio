@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className="greeting-container">
           <h1>Hey, I'm Christian</h1>
-          <h4>A front-end Web Developer based in the San Francisco Bay Area</h4>
+          <h4>A Web Developer based in the San Francisco Bay Area</h4>
         </div>
       </div>
       <hr />
