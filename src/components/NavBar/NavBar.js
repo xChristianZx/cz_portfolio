@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./NavBar.css";
 import { NavLink, Link } from "react-router-dom";
-import FaCamera from "react-icons/lib/fa/camera-retro";
+// import FaCamera from "react-icons/lib/fa/camera-retro";
 
 class NavBar extends Component {
   render() {
@@ -20,7 +20,7 @@ class NavBar extends Component {
             <li>
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://cz-photos.surge.sh/"
                 target="_blank"
@@ -29,7 +29,7 @@ class NavBar extends Component {
               >
                 <FaCamera />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
