@@ -3,6 +3,7 @@
 html {
   height: 100%;
   font-size: 10px;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,8 +15,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 h1 {
