@@ -61,9 +61,19 @@
 
 @media all and (max-width: 550px) {
   .navbar-container {
-    margin: 0.3rem auto;
+    // margin: 0.3rem auto;
+    margin: 1.5rem auto;
     & .navbar-links-container li {
       padding: 0 1em;
     }
+  }
+}
+
+@media all and (max-width: 425px) {
+  .navbar-container {
+    margin: 0.3rem auto;
+    // & .navbar-links-container li {
+    //   padding: 0 1em;
+    // }
   }
 }
