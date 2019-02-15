@@ -68,11 +68,13 @@
   }
 }
 
+/* Converts about section from row to column */
 @media all and (max-width: 660px) {
   .about-wrapper {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .about-container {
