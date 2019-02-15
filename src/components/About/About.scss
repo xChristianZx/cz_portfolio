@@ -101,7 +101,13 @@
 
 @media all and (max-width: 550px) {
   .about-wrapper {
-    width: 100%;
+    width: 90vw;
     padding: 1rem 0;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .contact-container .links-container {
+    flex-direction: column;
   }
 }
