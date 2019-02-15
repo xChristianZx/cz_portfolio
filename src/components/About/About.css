@@ -50,11 +50,13 @@
   .about-wrapper {
     width: 85vw; } }
 
+/* Converts about section from row to column */
 @media all and (max-width: 660px) {
   .about-wrapper {
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    width: 100%; }
   .about-container {
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
@@ -71,5 +73,9 @@
 
 @media all and (max-width: 550px) {
   .about-wrapper {
-    width: 100%;
+    width: 90vw;
     padding: 1rem 0; } }
+
+@media all and (max-width: 350px) {
+  .contact-container .links-container {
+    flex-direction: column; } }
