@@ -20,10 +20,7 @@ const Home = () => {
           <h4>A Web Developer based in the San Francisco Bay Area</h4>
         </div>
       </div>
-      <hr />
-      <div>
-        <About />
-      </div>
+      <About />
     </div>
   );
 };
