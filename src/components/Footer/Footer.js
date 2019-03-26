@@ -10,13 +10,14 @@ const Footer = () => {
       <div className="footer-container">
         <h3>Christian Zenaty</h3>
         <div className="icons-container">
-          <a href="mailto:cazenaty@gmail.com" rel="noopener noreferrer">
+          <a href="mailto:cazenaty@gmail.com" rel="noopener noreferrer" title="Link to Mail">
             <FaMail />
           </a>
           <a
             href="https://github.com/xChristianZx"
             target="_blank"
             rel="noopener noreferrer"
+            title="Link to Github"
           >
             <FaGithub />
           </a>
