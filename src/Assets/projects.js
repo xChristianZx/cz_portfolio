@@ -1,8 +1,10 @@
 const projects = [
   {
     name: "Founder Connect",
+    // src:
+    //   "https://res.cloudinary.com/zenpicscloud/image/upload/q_15/v1550192378/project_thumbnails/founder_connect_2.jpg",
     src:
-      "https://res.cloudinary.com/zenpicscloud/image/upload/v1550192378/project_thumbnails/founder_connect_2.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_80,w_800/v1550192824/project_thumbnails/founder_connect_2.jpg",
     tags: "reactjs, redux, react-router, nodejs, express, mongodb",
     link: "https://connect-founder.herokuapp.com/",
     github: "https://github.com/chingu-voyage6/Bears-Team-02",
@@ -10,7 +12,10 @@ const projects = [
   },
   {
     name: "uNight",
-    src: "https://res.cloudinary.com/zenpicscloud/image/upload/q_35/v1524176533/project_thumbnails/uNight.png",
+    // src:
+    //   "https://res.cloudinary.com/zenpicscloud/image/upload/q_15/v1524176533/project_thumbnails/uNight.jpg",
+    src:
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_80,w_800/v1524176533/project_thumbnails/uNight.jpg",
     tags: "reactjs, redux, react-router, nodejs, express, mongodb",
     link: "https://unight-tonight.herokuapp.com/",
     github: "https://github.com/xChristianZx/nightlife_app",
@@ -20,7 +25,7 @@ const projects = [
   {
     name: "crypTick",
     src:
-      "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752295/project_thumbnails/crypTick.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_50,w_800/v1521752295/project_thumbnails/crypTick.png",
     tags: "reactjs, websockets/ws, expressjs",
     link: "https://cryptick.herokuapp.com/",
     github: "https://github.com/xChristianZx/crypTick",
@@ -30,7 +35,7 @@ const projects = [
   {
     name: "Chart It",
     src:
-      "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752294/project_thumbnails/ChartTheMarket.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_80,w_800/v1521752294/project_thumbnails/ChartTheMarket.png",
     tags: "reactjs, websockets/ws, expressjs, mongoDB",
     link: "https://chart-it-z.herokuapp.com/",
     github: "https://github.com/xChristianZx/stock_charting_app",
@@ -40,7 +45,7 @@ const projects = [
   {
     name: "VoterZ",
     src:
-      "https://res.cloudinary.com/zenpicscloud/image/upload/v1521752279/project_thumbnails/voting_app.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_80,w_800/v1521752279/project_thumbnails/voting_app.png",
     tags: "expressjs, mongoDB, ejs",
     link: "https://voterz.herokuapp.com/",
     github: "https://github.com/xChristianZx/voting_app",
@@ -50,7 +55,7 @@ const projects = [
   {
     name: "Momentum Clone",
     src:
-      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_20,w_1000/v1521754421/MomentumClone.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_50,w_500/v1521754421/MomentumClone.jpg",
     tags: "reactjs, sass",
     link: "https://sparkling-substance.surge.sh",
     github: "https://github.com/xChristianZx/momentum_clone",
@@ -59,7 +64,7 @@ const projects = [
   {
     name: "Calculator",
     src:
-      "https://res.cloudinary.com/zenpicscloud/image/upload/v1521755824/project_thumbnails/Calculator.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_80,w_800/v1521755824/project_thumbnails/Calculator.png",
     tags: "jquery, sass, css grid",
     link: "https://codepen.io/christianZ/full/JJWmox",
     github: "https://github.com/xChristianZx/FCC2/tree/master/Projects/calculator",
@@ -68,7 +73,7 @@ const projects = [
   {
     name: "Simon",
     src:
-      "https://res.cloudinary.com/zenpicscloud/image/upload/v1521755825/project_thumbnails/Simon.png",
+      "https://res.cloudinary.com/zenpicscloud/image/upload/c_scale,q_50,w_800/v1521755825/project_thumbnails/Simon.png",
     tags: "jquery",
     link: "https://codepen.io/christianZ/pen/BdBvmx",
     github: "https://github.com/xChristianZx/FCC2/tree/master/Projects/simon",
