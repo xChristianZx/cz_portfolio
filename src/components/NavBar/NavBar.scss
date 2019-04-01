@@ -45,16 +45,17 @@
       padding: 0 1.5em;
       margin: 0;
       list-style: none;
-      &:last-child {
-        padding-right: 0;
-        a {
-          color: gray;
-          padding-right: 0;
-          &:hover {
-            color: black;
-          }
-        }
-      }
+      // Hides the link to the photography site.  Hiding as link to photo site is currently disabled.
+      // &:last-child {
+      //   padding-right: 0;
+      //   a {
+      //     color: gray;
+      //     padding-right: 0;
+      //     &:hover {
+      //       color: black;
+      //     }
+      //   }
+      // }
     }
   }
 }

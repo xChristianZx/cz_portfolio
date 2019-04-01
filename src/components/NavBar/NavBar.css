@@ -40,13 +40,6 @@
       padding: 0 1.5em;
       margin: 0;
       list-style: none; }
-      .navbar-container .navbar-links-container li:last-child {
-        padding-right: 0; }
-        .navbar-container .navbar-links-container li:last-child a {
-          color: gray;
-          padding-right: 0; }
-          .navbar-container .navbar-links-container li:last-child a:hover {
-            color: black; }
 
 @media all and (max-width: 550px) {
   .navbar-container {
