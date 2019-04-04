@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  // border: 2px solid red;
 }
 
 .content-container {
@@ -12,5 +13,105 @@
   margin: auto;
   // min-height: 85vh;
   flex: 1 0 auto;
-  // border: 1px solid red;
+  // border: 2px solid green;
 }
+
+/* Simple Fade Animation - enter transition 300ms, exit 150ms */
+.fade-appear,
+.fade-enter {
+  opacity: 0.01;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
+
+/* Animations - enter transition 800ms, exit 150ms */
+// .fade-appear,
+// .fade-enter {
+//   opacity: 0.01;
+//   z-index: 1;
+//   transform: translateY(-30px);
+// }
+
+// .fade-appear-active,
+// .fade-enter.fade-enter-active {
+//   opacity: 1;
+//   transform: translateY(0);
+//   transition: opacity 300ms ease-in 150ms, transform 300ms ease-out 150ms;
+// }
+
+// .fade-exit {
+//   opacity: 1;
+//   transform: translateY(0);
+// }
+// .fade-exit.fade-exit-active {
+//   opacity: 0.01;
+//   transform: translateY(-10px);
+//   transition: opacity 250ms ease-in, transform 150ms ease-in;
+// }
+
+// /* About Paragraph animations */
+// .fade-appear p,
+// .fade-enter p {
+//   transform: translateX(-25px);
+//   opacity: 0;
+// }
+
+// .fade-appear-active p,
+// .fade-enter.fade-enter-active p {
+//   transform: translateX(0);
+//   opacity: 1;
+// }
+// .fade-appear-active p:nth-child(2),
+// .fade-enter.fade-enter-active p:nth-child(2) {
+//   transition: opacity 300ms linear 300ms, transform 300ms ease-out 300ms;
+// }
+// .fade-appear-active p:nth-child(3),
+// .fade-enter.fade-enter-active p:nth-child(3) {
+//   transition: opacity 300ms linear 400ms, transform 300ms ease-out 400ms;
+// }
+// .fade-appear-active p:nth-child(4),
+// .fade-enter.fade-enter-active p:nth-child(4) {
+//   transition: opacity 300ms linear 500ms, transform 300ms ease-out 500ms;
+// }
+
+/* SAVE - Test animation timing */
+
+// .fade-appear-active p:nth-child(2),
+// .fade-enter.fade-enter-active p:nth-child(2) {
+//   transition: opacity 600ms ease-in-out 300ms, transform 400ms ease-out 300ms;
+// }
+// .fade-appear-active p:nth-child(3),
+// .fade-enter.fade-enter-active p:nth-child(3) {
+//   transition: opacity 600ms ease-in-out 450ms, transform 400ms ease-out 450ms;
+// }
+// .fade-appear-active p:nth-child(4),
+// .fade-enter.fade-enter-active p:nth-child(4) {
+//   transition: opacity 600ms ease-in-out 600ms, transform 400ms ease-out 600ms;
+// }
+
+// .fade-appear-active p:nth-child(2),
+// .fade-enter.fade-enter-active p:nth-child(2) {
+//   transition: opacity 300ms ease-in 400ms, transform 300ms ease-out 400ms;
+// }
+// .fade-appear-active p:nth-child(3),
+// .fade-enter.fade-enter-active p:nth-child(3) {
+//   transition: opacity 300ms ease-in 500ms, transform 300ms ease-out 500ms;
+// }
+// .fade-appear-active p:nth-child(4),
+// .fade-enter.fade-enter-active p:nth-child(4) {
+//   transition: opacity 300ms ease-in 600ms, transform 300ms ease-out 600ms;
+// }

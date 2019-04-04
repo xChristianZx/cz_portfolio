@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 import NavBar from "./components/NavBar/NavBar";
 // import Landing from "./components/Landing/Landing";
 import Home from "./components/Home/Home";
@@ -22,12 +23,24 @@ class App extends Component {
         <div className="router-wrapper">
           <NavBar />
           <div className="content-container">
-            <Switch>
-              {/* <Route exact path="/" component={Landing} /> */}
-              <Route exact path="/" component={Home} />
-              <Route path="/portfolio" component={Portfolio} />
-              <Route component={NoMatch} />
-            </Switch>
+            <Route
+              render={({ location }) => (
+                <TransitionGroup component={null}>
+                  <CSSTransition
+                    //  pathname instead of id to prevent re-render
+                    key={location.pathname}
+                    timeout={{ enter: 300, exit: 150 }}
+                    classNames="fade"
+                  >
+                    <Switch location={location}>
+                      <Route exact path="/" component={Home} />
+                      <Route path="/portfolio" component={Portfolio} />
+                      <Route component={NoMatch} />
+                    </Switch>
+                  </CSSTransition>
+                </TransitionGroup>
+              )}
+            />
           </div>
           <Footer />
         </div>
