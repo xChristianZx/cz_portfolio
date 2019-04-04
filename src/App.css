@@ -10,3 +10,25 @@
   align-items: center;
   margin: auto;
   flex: 1 0 auto; }
+
+/* Simple Fade Animation - enter transition 300ms, exit 150ms */
+.fade-appear,
+.fade-enter {
+  opacity: 0.01;
+  z-index: 1; }
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms linear 150ms; }
+
+.fade-exit {
+  opacity: 1; }
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear; }
+
+/* Animations - enter transition 800ms, exit 150ms */
+/* SAVE - Test animation timing */
